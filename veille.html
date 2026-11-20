@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Veille technologique - Matthieu NEYT</title>
+<style>
+/* Style autonome : si ton style.css gère déjà header/nav/section, supprime ce bloc et ajoute <link rel="stylesheet" href="style.css"> */
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.6}
+.mn-header{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding:14px 5%;background:#111c33;border-bottom:1px solid #1e2d4d;z-index:10}
+.mn-brand{color:#fff;font-weight:700;text-decoration:none}
+.mn-header nav a{color:#cbd5e1;text-decoration:none;margin-left:18px;padding-bottom:3px}
+.mn-header nav a:hover,.mn-header nav a.active{color:#38bdf8;border-bottom:2px solid #38bdf8}
+main{max-width:1000px;margin:auto;padding:40px 5%}
+h1{color:#fff}h2{color:#38bdf8;margin-top:36px}
+.card{background:#16223d;border:1px solid #1e2d4d;border-radius:12px;padding:18px 22px;margin:14px 0}
+.card h3{margin:0 0 6px;color:#fff}.card a{color:#38bdf8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.tag{display:inline-block;background:#1e3a5f;color:#7dd3fc;border-radius:20px;padding:2px 12px;margin:3px 4px 3px 0;font-size:.85rem}
+footer{text-align:center;padding:30px;color:#94a3b8;font-size:.9rem}
+</style>
+</head><body>
+<header class="mn-header">
+  <a class="mn-brand" href="index.html">Matthieu NEYT · SIO</a>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="e5.html">Épreuve E5</a>
+    <a href="e6.html">Épreuve E6</a>
+    <a href="veille.html" class="active">Veille technologique</a>
+    <a href="entreprise.html">Entreprise</a>
+  </nav>
+</header>
+<main>
+<h1>Veille technologique</h1>
+<p>[Présente ton thème de veille et pourquoi tu l'as choisi : ex. cybersécurité, IA, cloud…]</p>
+<h2>Thème et problématique</h2>
+<div class="card"><p>[Sujet de la veille, problématique, enjeux pour un technicien SIO.]</p></div>
+<h2>Méthodologie</h2>
+<div class="card"><p><b>Outils :</b> [Feedly, Google Alerts, Netvibes, LinkedIn…]<br><b>Fréquence :</b> [hebdomadaire]<br><b>Méthode :</b> collecte → tri → synthèse → partage.</p></div>
+<h2>Mes sources</h2>
+<div class="card"><span class="tag">ANSSI</span><span class="tag">CERT-FR</span><span class="tag">LeMagIT</span><span class="tag">ZDNet</span><span class="tag">[autre]</span></div>
+<h2>Synthèses d'articles</h2>
+<div class="grid">
+  <div class="card"><h3>[Titre de l'article]</h3><small>[Date] · [Source]</small><p>[Résumé en 3-4 lignes.]</p><a href="#" target="_blank" rel="noopener">Lire l'article</a></div>
+  <div class="card"><h3>[Titre de l'article]</h3><small>[Date] · [Source]</small><p>[Résumé en 3-4 lignes.]</p><a href="#" target="_blank" rel="noopener">Lire l'article</a></div>
+  <div class="card"><h3>[Titre de l'article]</h3><small>[Date] · [Source]</small><p>[Résumé en 3-4 lignes.]</p><a href="#" target="_blank" rel="noopener">Lire l'article</a></div>
+</div>
+</main>
+<footer>© Matthieu NEYT - Portfolio BTS SIO · 2026 Tous droits réservés.</footer>
+</body></html>
